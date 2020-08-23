@@ -17,7 +17,7 @@ namespace MediatR_CQRS_20.Controllers
     {
         private readonly IMediator mediator;
 
-        public HomeController(IMediator mediator) // MediatR
+        public HomeController(IMediator mediator) // MediatRr
         {
             this.mediator = mediator;
         }
